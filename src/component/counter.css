@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 30px;
+    color: aqua;
+    font-weight: bold;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.btn button {
+    padding: 8px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn .increment {
+    background: green;
+}
